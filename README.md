@@ -8,7 +8,7 @@ This application is one of my projects in the Mobile Device Application Developm
 
 ## Demonstration
 
-![Alt text](/screenshot/1.gif?raw=true "Optional Title") ![Alt text](/screenshot/2.gif?raw=true "Optional Title") ![Alt text](/screenshot/3.gif?raw=true "Optional Title")
+![Alt text](/screenshot/1.gif?raw=true "Optional Title")	![Alt text](/screenshot/2.gif?raw=true "Optional Title")	![Alt text](/screenshot/3.gif?raw=true "Optional Title")
 
 See more at: https://youtu.be/ZRoPp70p4sk
 
