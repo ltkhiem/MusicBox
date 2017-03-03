@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wall"
+    tools:context="com.nimah.khiem.musicbox.LoginActivity">
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_logintitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#104E8B"
+            android:textSize="60sp"
+            android:text="Music Box"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp"/>
+
+        <EditText
+            android:id="@+id/et_loginname"
+            android:hint="Enter username"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:background="#99ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/et_loginpassword"
+            android:layout_marginTop="30dp"
+            android:background="#77ffffff"
+            android:hint="Enter password"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:password="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_facebooklogin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="#0f2c58"
+                android:textSize="17sp"
+                android:padding="7dp"
+                android:text="LOG IN WITH FACEBOOK"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+
+            <Button
+                android:id="@+id/btn_originlogin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="#653133"
+                android:text="LOG IN"
+                android:textSize="17sp"
+                android:padding="7dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/btn_real_facebook_login"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

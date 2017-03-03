@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.facebook.login.widget.ProfilePictureView
+            android:id="@+id/ppv_avatar"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+        </com.facebook.login.widget.ProfilePictureView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="right"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:visibility="visible"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome," />
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="3dp"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Admin"
+                android:gravity="right"
+                />
+
+            <TextView
+                android:id="@+id/tv_useremail"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:paddingTop="3dp"
+                android:text="Enjoy the music!" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
